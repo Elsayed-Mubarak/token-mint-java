@@ -1,0 +1,6 @@
+1. Arabic not supported 
+
+***2. when importing the object to the file, add the extension 
+***3.working with seriazable 
+***4. make the table not EDITABLE 
+5. change the textfield in the enter PIN dialog to password textfield

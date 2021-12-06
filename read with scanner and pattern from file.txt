@@ -1,0 +1,24 @@
+ FileReader fin = new FileReader("c:\\test.txt");
+//        Scanner src = new Scanner(fin);
+//
+//        Key newKey = new Key();
+//        List<Key> listKeys = new ArrayList<Key>();
+//
+//        src.useDelimiter("separator *");
+//
+//        // Read String.
+//        String key;
+//        while (src.hasNext()) {
+//            key = src.next();
+//            if (key.contains("done!")) {
+//                continue;
+//            }
+//            if (key.contains("Key pair : ")) {
+//                continue;
+//            }
+//            newKey.setPrivateK(key.getBytes());
+//            key = src.next();
+//            newKey.setPublicK(key.getBytes());
+//            listKeys.add(newKey);
+//        }
+//        fin.close();

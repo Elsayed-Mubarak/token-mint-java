@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 17, 2009 10:48:22 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="myschema" name="com.asc.bean.Key" table="key">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="privateK" type="binary">
+      <column name="privateK" not-null="true"/>
+    </property>
+    <property name="publicK" type="binary">
+      <column name="publicK" not-null="true"/>
+    </property>
+    <property name="description" type="string">
+      <column length="65535" name="description" not-null="true"/>
+    </property>
+    <property name="date" type="timestamp">
+      <column length="19" name="date" not-null="true"/>
+    </property>
+    <property name="tag" type="string">
+      <column length="45" name="tag" not-null="true"/>
+    </property>
+    <property name="alias" type="string">
+      <column length="45" name="alias" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>
